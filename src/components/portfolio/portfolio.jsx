@@ -3,7 +3,7 @@ export default class Portifolio extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="portfolio">
+        <section id="projetos">
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>Confira alguns dos meus trabalhos.</h1>

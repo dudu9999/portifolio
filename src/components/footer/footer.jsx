@@ -18,7 +18,7 @@ export default class Footer extends Component {
                 {/* <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>    */}
               </ul>
             </div>
-            <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
+            <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#inicio"><i className="icon-up-open" /></a></div>
           </div>
         </footer> {/* Footer End*/}
       </React.Fragment>

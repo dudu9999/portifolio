@@ -3,17 +3,18 @@ export default class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <header id="home">
+        <header id="inicio">
           <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="hrrp://www.google.com" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
-              <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-              <li><a className="smoothscroll" href="#about">About</a></li>
-              <li><a className="smoothscroll" href="#resume">Resume</a></li>
-              <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-              <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-              <li><a className="smoothscroll" href="#contact">Contact</a></li>
+              <li className="current"><a className="smoothscroll" href="#inicio">Inicio</a></li>
+              <li><a className="smoothscroll" href="#sobre">Sobre</a></li>
+              <li><a className="smoothscroll" href="#educacao">Educação</a></li>
+              <li><a className="smoothscroll" href="#habilidade">Habilidade</a></li>
+              <li><a className="smoothscroll" href="#projetos">Projetos</a></li>
+              <li><a className="smoothscroll" href="#inspiracao">Inspiração</a></li>
+              <li><a className="smoothscroll" href="#contato">Contato</a></li>
             </ul> {/* end #nav */}
           </nav> {/* end #nav-wrap */}
           <div className="row banner">

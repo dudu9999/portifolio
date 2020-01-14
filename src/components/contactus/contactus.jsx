@@ -3,10 +3,10 @@ export default class ContactUs extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="contact">
+        <section id="contato">
           <div className="row section-head">
             <div className="two columns header-col">
-              <h1><span>Get In Touch.</span></h1>
+              <h1><span>Entrar em contato.</span></h1>
             </div>
             <div className="ten columns">
              <h2>Contato</h2>
@@ -18,7 +18,7 @@ export default class ContactUs extends Component {
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
-                    <label htmlFor="contactName">Name <span className="required">*</span></label>
+                    <label htmlFor="contactName">Nome <span className="required">*</span></label>
                     <input type="text" defaultValue={""} size={35} id="contactName" name="contactName" disabled/>
                   </div>
                   <div>
@@ -26,15 +26,15 @@ export default class ContactUs extends Component {
                     <input type="text" defaultValue={""} size={35} id="contactEmail" name="contactEmail" disabled/>
                   </div>
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label htmlFor="contactSubject">Assunto</label>
                     <input type="text" defaultValue={""} size={35} id="contactSubject" name="contactSubject" disabled/>
                   </div>
                   <div>
-                    <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                    <label htmlFor="contactMessage">Menssagem <span className="required">*</span></label>
                     <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} disabled/>
                   </div>
                   <div>
-                    <button className="submit" disabled>Submit</button>
+                    <button className="submit" disabled>Enviar</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>

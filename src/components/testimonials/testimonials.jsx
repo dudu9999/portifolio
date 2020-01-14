@@ -3,7 +3,7 @@ export default class Testimonials extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="testimonials">
+        <section id="inspiracao">
           <div className="text-container">
             <div className="row">
               <div className="two columns header-col">

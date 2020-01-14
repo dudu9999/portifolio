@@ -3,7 +3,7 @@ export default class Resume extends Component {
   render() {
     return (
       <React.Fragment>
-      <section id="resume">
+      <section id="educacao">
         {/* Education
       ----------------------------------------------- */}
         <div className="row education">
@@ -94,7 +94,7 @@ export default class Resume extends Component {
         </div> {/* End Work */}
         {/* Skills
       ----------------------------------------------- */}
-        <div className="row skill">
+        <div className="row skill" id="habilidade">
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>
           </div>

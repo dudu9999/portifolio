@@ -17,7 +17,7 @@ export default class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <section id="about">
+        <section id="sobre">
           <div className="row">
             <div className="three columns">
             <div className="polaroid">
