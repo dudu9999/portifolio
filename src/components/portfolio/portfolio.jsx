@@ -134,7 +134,7 @@ export default class Portifolio extends Component {
               </div>
               <div className="link-box">
                 <a href="https://www.institutoventuri.org/CIEducA/index.php/2019">Details</a>
-                <a className="popup-modal-dismiss">Close</a>
+                <a className={'popup-modal-dismiss'}>Close</a>
               </div>
             </div>{/* modal-01 End */}
             <div id="modal-02" className="popup-modal mfp-hide">

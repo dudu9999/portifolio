@@ -121,7 +121,7 @@ function checkValidServiceWorker(swUrl, config) {
     })
     .catch(() => {
       console.log(
-        'No internet connection found. App is running in offline mode.'
+        'Nenhuma conexão à Internet encontrada. O aplicativo está sendo executado no modo offline.'
       );
     });
 }

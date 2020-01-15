@@ -38,12 +38,7 @@ export default class About extends Component {
                 <div className="columns contact-details">
                   <h2>Contato</h2>
                   <p className="address">
-                    {/* <span>Jonathan Doe</span><br /> */}
-                    <span><div className="div_img" />Brasil<br />
-                      Porto Alegre/Rio Grande do Sul
-                    </span><br />
-                    {/* <span>(123)456-7890</span><br /> */}
-                    {/*<span>ecaetanocorrea@gmail.com</span>*/}
+                    <span><div className="div_img" />Brasil<br />Porto Alegre/Rio Grande do Sul</span><br />
                   </p>
                 </div>
                 <div className="columns download">
